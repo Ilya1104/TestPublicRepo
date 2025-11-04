@@ -37,7 +37,7 @@ namespace Lab6TestTask.Migrations
                     Quantity = table.Column<int>(type: "int", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
                     ReceivedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,0)", nullable: false),
                     WarehouseId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

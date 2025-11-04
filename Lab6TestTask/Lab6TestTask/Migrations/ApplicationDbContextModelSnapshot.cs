@@ -62,7 +62,7 @@ namespace Lab6TestTask.Migrations
                             Name = "Cement",
                             Price = 6.50m,
                             Quantity = 500,
-                            ReceivedDate = new DateTime(2025, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReceivedDate = new DateTime(2024, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0,
                             WarehouseId = 1
                         },
@@ -72,7 +72,7 @@ namespace Lab6TestTask.Migrations
                             Name = "Bricks",
                             Price = 0.45m,
                             Quantity = 10000,
-                            ReceivedDate = new DateTime(2025, 9, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReceivedDate = new DateTime(2024, 9, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 1,
                             WarehouseId = 1
                         },
@@ -82,7 +82,7 @@ namespace Lab6TestTask.Migrations
                             Name = "Steel Rebars",
                             Price = 2.10m,
                             Quantity = 2000,
-                            ReceivedDate = new DateTime(2025, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReceivedDate = new DateTime(2025, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 3,
                             WarehouseId = 2
                         },
@@ -102,7 +102,7 @@ namespace Lab6TestTask.Migrations
                             Name = "Roof Tiles",
                             Price = 1.20m,
                             Quantity = 4000,
-                            ReceivedDate = new DateTime(2025, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReceivedDate = new DateTime(2025, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 0,
                             WarehouseId = 3
                         },
@@ -132,7 +132,7 @@ namespace Lab6TestTask.Migrations
                             Name = "Electric Drill",
                             Price = 80.00m,
                             Quantity = 150,
-                            ReceivedDate = new DateTime(2025, 9, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReceivedDate = new DateTime(2025, 5, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 3,
                             WarehouseId = 4
                         },
@@ -152,7 +152,7 @@ namespace Lab6TestTask.Migrations
                             Name = "Wheelbarrow",
                             Price = 95.00m,
                             Quantity = 70,
-                            ReceivedDate = new DateTime(2025, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ReceivedDate = new DateTime(2024, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = 1,
                             WarehouseId = 5
                         });
